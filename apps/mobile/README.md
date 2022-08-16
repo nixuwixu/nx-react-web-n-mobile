@@ -12,6 +12,12 @@ Run `npx nx run-android mobile`
 
 to run the applicatoin in development mode on Android simulator/device
 
+Run `emulator  -avd Pixel_4_API_31 & npx nx run-android mobile`
+
+Run `emulator -list-avds` to list virtual devices on your machine
+
+Run `emulator -avd Pixel_4_API_31` start emulator
+
 ### iOS
 Run `npx nx run-ios mobile`
 
